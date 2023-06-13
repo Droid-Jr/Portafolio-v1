@@ -147,7 +147,7 @@ const Projects = () => {
         >
           <img
             className={`${style.figure__img} w-full h-full transition-all duration-500 ease-out object-cover`}
-            src="/projects/Crud.png"
+            src="/projects/crud.png"
             alt=""
           />
 
