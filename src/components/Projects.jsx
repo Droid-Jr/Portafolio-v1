@@ -1,11 +1,5 @@
-import React, { useEffect } from "react";
-import crud from "../../public/projects/crud.png";
-import ecommerce from "../../public/projects/ecommerce.png";
-import pokemon from "../../public/projects/pokemon.png";
-import quotes from "../../public/projects/quotes.png";
-import rick from "../../public/projects/rickandmorty.png";
-import weather from "../../public/projects/weather.png";
-import destino from "../../public/projects/destino.png";
+
+
 import style from "./style/project.module.css";
 
 const Projects = () => {
@@ -33,12 +27,12 @@ const Projects = () => {
        
 
         <figure
-          className={`${style.project__figure}  ${style.box} w-full h-80  relative overflow-hidden rounded-lg `}
+          className={`${style.project__figure}  ${style.box} w-full h-80  relative overflow-hidden rounded-lg cursor-pointer`}
           data-aos="flip-left"
         >
           <img
             className={`${style.figure__img} w-full h-full transition-all duration-500 ease-out object-cover`}
-            src={ecommerce}
+            src="/projects/ecommerce.png"
             alt=""
           />
 
@@ -73,12 +67,12 @@ const Projects = () => {
 
         {/* //?item 2 */}
         <figure
-          className={`${style.project__figure} ${style.box} w-full h-80  relative overflow-hidden rounded-lg`}
+          className={`${style.project__figure} ${style.box} w-full h-80  relative overflow-hidden rounded-lg cursor-pointer`}
           data-aos="flip-left"
         >
           <img
             className={`${style.figure__img} w-full h-full transition-all duration-500 ease-out object-cover`}
-            src={pokemon}
+            src="/projects/poke.png"
             alt=""
           />
 
@@ -97,12 +91,12 @@ const Projects = () => {
             </div>
             <div className="absolute bottom-3 right-3 flex gap-3">
               <a
-                href="#"
+                href="https://github.com/Droid-Jr/Poke-api"
                 target="_blank"
               >
                 <i className="fa-brands fa-github text-4xl"></i>
               </a>
-              <a href="#" target="_blank">
+              <a href="https://poke-api-six-green.vercel.app/" target="_blank">
                 <i className="fa-sharp fa-solid fa-eye text-4xl"></i>
               </a>
             </div>
@@ -110,12 +104,12 @@ const Projects = () => {
         </figure>
         {/* //?item 3 */}
         <figure
-          className={`${style.project__figure}  ${style.box} w-full h-80  relative overflow-hidden rounded-lg`}
+          className={`${style.project__figure}  ${style.box} w-full h-80  relative overflow-hidden rounded-lg cursor-pointer`}
           data-aos="flip-left"
         >
           <img
             className={`${style.figure__img} w-full h-full transition-all duration-500 ease-out object-cover`}
-            src={rick}
+            src="/projects/Riky.png"
             alt=""
           />
 
@@ -134,12 +128,12 @@ const Projects = () => {
             </div>
             <div className="absolute bottom-3 right-3 flex gap-3">
               <a
-                href="#"
+                href="https://github.com/Droid-Jr/Ryki-and-Morthy-2"
                 target="_blank"
               >
                 <i className="fa-brands fa-github text-4xl"></i>
               </a>
-              <a href="#" target="_blank">
+              <a href="https://ryki-and-morthy-2.vercel.app/" target="_blank">
                 <i className="fa-sharp fa-solid fa-eye text-4xl"></i>
               </a>
             </div>
@@ -148,12 +142,12 @@ const Projects = () => {
 
         {/* //?item 4 */}
         <figure
-          className={`${style.project__figure} ${style.box} w-full h-80 relative overflow-hidden rounded-lg`}
+          className={`${style.project__figure} ${style.box} w-full h-80 relative overflow-hidden rounded-lg cursor-pointer`}
           data-aos="flip-left"
         >
           <img
             className={`${style.figure__img} w-full h-full transition-all duration-500 ease-out object-cover`}
-            src={crud}
+            src="/projects/Crud.png"
             alt=""
           />
 
@@ -172,12 +166,12 @@ const Projects = () => {
             </div>
             <div className="absolute bottom-3 right-3 flex gap-3">
               <a
-                href="#"
+                href="https://github.com/Droid-Jr/Crud-de-Usuario"
                 target="_blank"
               >
                 <i className="fa-brands fa-github text-4xl"></i>
               </a>
-              <a href="#" target="_blank">
+              <a href="https://crud-de-usuario.vercel.app/" target="_blank">
                 <i className="fa-sharp fa-solid fa-eye text-4xl"></i>
               </a>
             </div>
@@ -185,12 +179,12 @@ const Projects = () => {
         </figure>
         {/* //?item 5 */}
         <figure
-          className={`${style.project__figure} ${style.box} w-full h-80  relative overflow-hidden rounded-lg`}
+          className={`${style.project__figure} ${style.box} w-full h-80  relative overflow-hidden rounded-lg cursor-pointer`}
           data-aos="flip-left"
         >
           <img
             className={`${style.figure__img} w-full h-full transition-all duration-500 ease-out object-cover`}
-            src={weather}
+            src="/projects/clima.png"
             alt=""
           />
 
@@ -209,56 +203,19 @@ const Projects = () => {
             </div>
             <div className="absolute bottom-3 right-3 flex gap-3">
               <a
-                href="#"
+                href="https://github.com/Droid-Jr/clima-app"
                 target="_blank"
               >
                 <i className="fa-brands fa-github text-4xl"></i>
               </a>
-              <a href="#" target="_blank">
+              <a href="https://clima-app-git-main-mario-carvajal.vercel.app/" target="_blank">
                 <i className="fa-sharp fa-solid fa-eye text-4xl"></i>
               </a>
             </div>
           </div>
         </figure>
         {/* //?item 6 */}
-        <figure
-          className={`${style.project__figure}  ${style.box} w-full h-80  relative overflow-hidden rounded-lg`}
-          data-aos="flip-left"
-        >
-          <img
-            className={`${style.figure__img} w-full h-full transition-all duration-500 ease-out object-cover`}
-            src={quotes}
-            alt=""
-          />
-
-          <div
-            className={`${style.capa} absolute bottom-0 w-full h-full bg-[rgba(0,0,0,.7)]	 translate-y-full  transition-all duration-500 ease-out`}
-          >
-            <div className="p-5 relative">
-              <h4 className="text-white text-center text-3xl font-bold">
-                Quotes
-              </h4>
-              <p className="mt-4 text-justify italic font-medium text-slate-400 text-sm  md:text-base  2xl:text-lg">
-                Proyecto realizado a partir de un archivo JSON, donde nos
-                comparte frases celebres de algunos visionarios del pasado, al
-                cambiar la frase se le asigna un nuevo color aleatorio al estilo
-                mostrado en pantalla.
-                <span> Hecho con React, HTML y CSS</span>
-              </p>
-            </div>
-            <div className="absolute bottom-3 right-3 flex gap-3">
-              <a
-                href="#"
-                target="_blank"
-              >
-                <i className="fa-brands fa-github text-4xl"></i>
-              </a>
-              <a href="#" target="_blank">
-                <i className="fa-sharp fa-solid fa-eye text-4xl"></i>
-              </a>
-            </div>
-          </div>
-        </figure>
+        
       </div>
     </section>
   );

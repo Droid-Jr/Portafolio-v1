@@ -70,13 +70,6 @@ const About = () => {
                 <span className="ml-1 font-medium">Lima-Perú-Ate</span>
               </li>
               <li className="my-[8px] mx-0">
-                <i className="fa-sharp fa-solid fa-graduation-cap mr-[4px] text-orange-500"></i>
-                <strong className="font-semibold">Grado:</strong>
-                <span className="ml-1 font-medium">
-                  Tecnico en Computación e Informática
-                </span>
-              </li>
-              <li className="my-[8px] mx-0">
                 <i className="fa-sharp fa-solid fa-envelope text-orange-500  mr-[5px]"></i>
                 <strong className="font-semibold">Email:</strong>
                 <span className="ml-1 font-medium">
@@ -85,7 +78,7 @@ const About = () => {
               </li>
             </ul>
             <button className="bg-[#14b6bb] italic font-semibold cursor-pointer text-xl p-2 rounded transition-all duration-500 hover:translate-y-1 animate-bounce mt-[15px]">
-              <a href="#" download>
+              <a href="/cv.pdf" download={"cv.pdf"} target="_blank">
                 <i className="fa-solid fa-download mr-2 bg-[#14b6bb]"></i>
                 Descargar cv
               </a>

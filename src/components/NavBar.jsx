@@ -45,7 +45,7 @@ const NavBar = () => {
           <div className="flex gap-2 text-2xl  ">
             <a
               className="w-9 h-9 rounded-full bg-[#fcfcfc]  flex justify-center items-center p-3 hover:bg-[#0cfff3]	"
-              href="https://www.linkedin.com/in/droid-jr-39160a24b/"
+              href="https://www.linkedin.com/in/mario-carbajal-39160a24b/"
               target="_blank"
             >
                <i class="fa-brands fa-linkedin-in text-xl text-[#000000] "></i>

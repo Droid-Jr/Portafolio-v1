@@ -90,7 +90,7 @@ const Contact = () => {
         </div>
         <div className={`${style.box} basis-[60%]   p-[30px] rounded-[5px] `}>
           <form
-            action="https://formsubmit.co/espinozadiazjorgeluis@gmail.com"
+            action="https://formsubmit.co/droidjr10@gmail.com"
             method="POST"
             className="grid grid-cols-1   "
           >
