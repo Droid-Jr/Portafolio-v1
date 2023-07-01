@@ -26,7 +26,7 @@ const Contact = () => {
         >
           <div className="flex gap-4 items-center my-[30px] mx-0  ">
             <div>
-              <a href="mailto:espinozadiazjorgeluis@gmail.com">
+              <a href="mailto:droidjr10@gmail.com">
                 <i
                   className="fa-sharp fa-solid fa-envelope w-[40px] h-[40px] rounded-full  text-center leading-[36px] text-xl
               border-solid border-2 border-sky-500 transition-all duration-200  hover:bg-[#ddd9d9] text-black bg-[#00dfd8]  cursor-pointer"
