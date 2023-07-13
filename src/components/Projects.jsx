@@ -53,12 +53,12 @@ const Projects = () => {
             </div>
             <div className="absolute bottom-3 right-3 flex gap-3">
               <a
-                href="#"
+                href="https://github.com/Droid-Jr/Ecomer-1"
                 target="_blank"
               >
                 <i className="fa-brands fa-github text-4xl"></i>
               </a>
-              <a href="#" target="_blank">
+              <a href="https://ecomer-1.vercel.app/?vercelToolbarCode=E5IB5Jj4D3-ZP7k" target="_blank">
                 <i className="fa-sharp fa-solid fa-eye text-4xl"></i>
               </a>
             </div>
