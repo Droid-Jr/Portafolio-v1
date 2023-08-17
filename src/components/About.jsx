@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import about from "../../public/mario.jpg";
+import about from "../../public/mario-3.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -30,9 +30,9 @@ const About = () => {
         mejorar mis habilidades a través de muchos proyectos.
       </p>
       <div className="flex gap-5 mt-6  max-[850px]:flex-col ">
-        <div className="basis-[30%] text-center h-[370px]  max-[850px]:flex  max-[850px]:justify-center  max-[850px]:items-center  max-[850px]:w-full ">
+        <div className=" basis-[30%] text-center h-[370px]  max-[850px]:flex  max-[850px]:justify-center  max-[850px]:items-center  max-[850px]:w-full ">
           <img
-            className="w-full h-full object-cover   max-[850px]:w-[50%]   max-[450px]:w-[90%]  "
+            className="w-full h-full object-cover border-2 border-[#00DFD8]  max-[850px]:w-[50%]   max-[450px]:w-[90%]  "
             src={about}
           />
         </div>

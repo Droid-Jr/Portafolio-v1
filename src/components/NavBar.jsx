@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
-import foto from "../../public/mario.jpg";
+import foto from "../../public/mario-3.jpg";
 const NavBar = () => {
   const [open, setOpen] = useState(true);
   const [open1, setOpen1] = useState(false);

@@ -3,6 +3,9 @@ import git from "../../public/git.png";
 import post from "../../public/post.png";
 import router from "../../public/router.png";
 import bootstrap from "../../public/bootstrap.png";
+import nex from '../../public/nex.png';
+import node from '../../public/node2.png';
+import angular from '../../public/angular.png'
 
 const Technologies = () => {
   return (
@@ -119,6 +122,30 @@ const Technologies = () => {
             alt=""
           />
           <p className="text-center font-semibold text-[#00dfd8]">PostGress</p>
+        </div>
+        <div className="w-full h-[86px]">
+          <img
+            className="w-full h-full object-contain animate-wiggle"
+            src={nex}
+            alt=""
+          />
+          <p className="text-center font-semibold text-[#00dfd8]">Next</p>
+        </div>
+        <div className="w-full h-[86px]">
+          <img
+            className="w-full h-full object-contain animate-wiggle"
+            src={node}
+            alt=""
+          />
+          <p className="text-center font-semibold text-[#00dfd8]">Node Js</p>
+        </div>
+        <div className="w-full h-[86px]">
+          <img
+            className="w-full h-full object-contain animate-wiggle"
+            src={angular}
+            alt=""
+          />
+          <p className="text-center font-semibold text-[#00dfd8]">Angular</p>
         </div>
       </div>
     </section>
