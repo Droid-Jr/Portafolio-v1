@@ -121,7 +121,7 @@ const Technologies = () => {
             src={post}
             alt=""
           />
-          <p className="text-center font-semibold text-[#00dfd8]">PostGress</p>
+          <p className="text-center font-semibold text-[#00dfd8]">PostGreSQL</p>
         </div>
         <div className="w-full h-[86px]">
           <img

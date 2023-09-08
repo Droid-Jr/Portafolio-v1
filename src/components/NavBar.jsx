@@ -19,12 +19,12 @@ const NavBar = () => {
       {open ? (
         <i
           onClick={opens}
-          className="fa-sharp fa-solid fa-bars w-10 h-10 rounded-full text-xl bg-[#1337ff] fixed top-6 right-6 leading-[42px] text-center hidden max-[1050px]:block z-50 cursor-pointer"
+          className="fa-sharp fa-solid fa-bars w-10 h-10 rounded-full text-xl bg-[#1337ff] fixed top-6 right-6 leading-[42px] text-center md:hidden max-[1050px]:block z-50 cursor-pointer"
         ></i>
       ) : (
         <i
           onClick={opens}
-          className="fa-sharp fa-solid fa-xmark w-10 h-10 rounded-full text-xl bg-[#1337ff] fixed top-6 right-6 leading-[42px] text-center hidden max-[1050px]:block   z-50 cursor-pointer"
+          className="fa-sharp fa-solid fa-xmark w-10 h-10 rounded-full text-xl bg-[#1337ff] fixed top-6 right-6 leading-[42px] text-center md:hidden max-[1050px]:block   z-50 cursor-pointer"
         ></i>
       )}
 
