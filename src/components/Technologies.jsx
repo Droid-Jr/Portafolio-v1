@@ -25,7 +25,7 @@ const Technologies = () => {
         Algunas de mis habilidades como desarrollador web enfocado a cumplir tus
         necesidades de aplicaciones web.
       </p>
-      <div className="grid  grid-cols-3 py-[50px] px-[30px] gap-6  sm:grid-cols-5  md:grid-cols-6 lg:grid-cols-7">
+      <div className="grid  grid-cols-5 py-[50px] px-[30px] gap-6  sm:grid-cols-4  md:grid-cols-5 lg:grid-cols-6">
         <div className="w-full h-[90px] ">
           <img
             className="w-full h-full object-contain animate-wiggle"
@@ -123,30 +123,8 @@ const Technologies = () => {
           />
           <p className="text-center font-semibold text-[#00dfd8]">PostGreSQL</p>
         </div>
-        <div className="w-full h-[86px]">
-          <img
-            className="w-full h-full object-contain animate-wiggle"
-            src={nex}
-            alt=""
-          />
-          <p className="text-center font-semibold text-[#00dfd8]">Next</p>
-        </div>
-        <div className="w-full h-[86px]">
-          <img
-            className="w-full h-full object-contain animate-wiggle"
-            src={node}
-            alt=""
-          />
-          <p className="text-center font-semibold text-[#00dfd8]">Node Js</p>
-        </div>
-        <div className="w-full h-[86px]">
-          <img
-            className="w-full h-full object-contain animate-wiggle"
-            src={angular}
-            alt=""
-          />
-          <p className="text-center font-semibold text-[#00dfd8]">Angular</p>
-        </div>
+        
+        
       </div>
     </section>
   );
